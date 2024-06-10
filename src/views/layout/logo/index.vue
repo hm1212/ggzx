@@ -8,13 +8,18 @@
 import setting from '@/setting.ts';
 
 </script>
+<script  lang="ts">
+export default {
+  "name": "LOGO",
+}
+</script>
 <style scoped lang="scss">
 .logo_container {
   width: 100%;
   height: 50px;
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   img{
     width: $base-menu-logo-width;
     height: $base-menu-logo-height;
